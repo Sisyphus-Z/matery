@@ -1,5 +1,5 @@
 _config.yml
-source\zzz
+source
 themes\hexo-theme-matery\_config.yml
 themes\hexo-theme-matery\languages\zh-CN.yml
 themes\hexo-theme-matery\layout\index.ejs
@@ -13,10 +13,10 @@ themes\hexo-theme-matery\layout\_widget\video.ejs
 themes\hexo-theme-matery\source\css\matery.css
 themes\hexo-theme-matery\source\js\matery.js
 themes\hexo-theme-matery\source\libs\awesome\css\all111.css
-themes\hexo-theme-matery\source\mycdn\zzz
+themes\hexo-theme-matery\source\mycdn
 themes\hexo-theme-matery\source\mycustom\baidutongji.js
 themes\hexo-theme-matery\source\mycustom\banner.js
 themes\hexo-theme-matery\source\mycustom\DPlayerFix.js
 themes\hexo-theme-matery\source\mycustom\mycustom.css
-themes\hexo-theme-matery\source\mycustom\zzz
-themes\hexo-theme-matery\source\mypic\zzz
+themes\hexo-theme-matery\source\mycustom
+themes\hexo-theme-matery\source\mypic
