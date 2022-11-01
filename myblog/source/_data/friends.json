@@ -1,0 +1,36 @@
+[
+{
+    "avatar": "https://www.lengjiao.me/favicon.ico",
+    "name": "棱角",
+    "introduction": "梯子，按流量购买，便宜",
+    "url": "https://www.lengjiao.me",
+    "title": "🧡"
+}, {
+    "avatar": "https://gitee.com/assets/favicon_message.ico?1581387642851",
+    "name": "dev-sidecar",
+    "introduction": "github加速",
+    "url": "https://gitee.com/docmirror/dev-sidecar",
+    "title": "🧡"
+}, {
+    "avatar": "https://desktop.github.com/images/desktop-icon.svg",
+    "name": "GitHub Desktop",
+    "introduction": "不需要git，一键提交拉取",
+    "url": "https://desktop.github.com",
+    "title": "🧡"
+},
+{
+    "avatar": "https://github.com/fluidicon.png",
+    "name": "CopyTranslator",
+    "introduction": "复制即翻译",
+    "url": "https://github.com/CopyTranslator/CopyTranslator",
+    "title": "🧡"
+},
+{
+    "avatar": "https://t7.baidu.com/it/u=3427802884,1101430989&fm=218&app=126&f=JPEG?w=121&h=75&s=7F2A6FCB47E497434EF4C6360300D0D7",
+    "name": "wallhaven",
+    "introduction": "免费的高清图片资源",
+    "url": "https://wallhaven.cc/",
+    "title": "🧡"
+}
+
+]

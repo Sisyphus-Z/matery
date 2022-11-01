@@ -1,0 +1,74 @@
+#a #b #c h1:before,
+#a #b #c h2:before,
+#a #b #c h3:before {
+    content: none;
+}
+
+#a #b #c h1 {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#a #b #c .stui-pannel-box {
+    padding: 10px 0px !important;
+    margin-top: -20px!important;
+}
+
+.stui-pannel-box p:before {
+    border-bottom: 1px solid #c2c2c2;
+    content: " ";
+
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.bg-cover.pd-header.post-cover{
+    background-image: url(/mypic/video_img.jpg) !important;
+}
+
+.dplayer-video-current {
+    /* object-fit: cover; */
+}
+
+#a #b #c .dplayer-video-wrap {}
+
+
+#a #b #c .col-lg-wide-75 {
+    width: 100%;
+}
+
+#a #b #c .stui-pannel.stui-pannel-bg.clearfix {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* 貌似没用 */
+#a #b #c video {
+    z-index: 70;
+    /* object-fit: fill */
+}
+
+
+/* -------------------------------------------- */
+
+.card>.card-content.article-info{
+    visibility:hidden!important;
+}
+
+#prenext-posts{
+    display: none!important;
+}
+
+.post-meta__tag-list{
+    visibility:hidden!important;
+}
+
+/* 修复手机端视频下方会有margin */
+#articleContent video{
+    margin: 0px 0px!important;
+}

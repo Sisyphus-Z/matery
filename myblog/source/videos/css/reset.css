@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+#a #b #c div,
+#a #b #c span,
+#a #b #c applet,
+#a #b #c object,
+#a #b #c iframe,
+#a #b #c h1,
+#a #b #c h2,
+#a #b #c h3,
+#a #b #c h4,
+#a #b #c h5,
+#a #b #c h6,
+#a #b #c p,
+#a #b #c blockquote,
+#a #b #c pre,
+#a #b #c a,
+#a #b #c abbr,
+#a #b #c acronym,
+#a #b #c address,
+#a #b #c big,
+#a #b #c cite,
+#a #b #c code,
+#a #b #c del,
+#a #b #c dfn,
+#a #b #c em,
+#a #b #c img,
+#a #b #c ins,
+#a #b #c kbd,
+#a #b #c q,
+#a #b #c s,
+#a #b #c samp,
+#a #b #c small,
+#a #b #c strike,
+#a #b #c strong,
+#a #b #c sub,
+#a #b #c sup,
+#a #b #c tt,
+#a #b #c var,
+#a #b #c b,
+#a #b #c u,
+#a #b #c i,
+#a #b #c center,
+#a #b #c dl,
+#a #b #c dt,
+#a #b #c dd,
+#a #b #c ol,
+#a #b #c ul,
+#a #b #c li,
+#a #b #c fieldset,
+#a #b #c form,
+#a #b #c label,
+#a #b #c legend,
+#a #b #c table,
+#a #b #c caption,
+#a #b #c tbody,
+#a #b #c tfoot,
+#a #b #c thead,
+#a #b #c tr,
+#a #b #c th,
+#a #b #c td,
+#a #b #c article,
+#a #b #c aside,
+#a #b #c canvas,
+#a #b #c details,
+#a #b #c embed,
+#a #b #c figure,
+#a #b #c figcaption,
+#a #b #c footer,
+#a #b #c header,
+#a #b #c hgroup,
+#a #b #c menu,
+#a #b #c nav,
+#a #b #c output,
+#a #b #c ruby,
+#a #b #c section,
+#a #b #c summary,
+#a #b #c time,
+#a #b #c mark,
+#a #b #c audio,
+#a #b #c video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+#a #b #c article,
+#a #b #c aside,
+#a #b #c details,
+#a #b #c figcaption,
+#a #b #c figure,
+#a #b #c footer,
+#a #b #c header,
+#a #b #c hgroup,
+#a #b #c menu,
+#a #b #c nav,
+#a #b #c section {
+  display: block;
+}
+#a #b #c ol,
+#a #b #c ul {
+  list-style: none;
+}
+#a #b #c blockquote,
+#a #b #c q {
+  quotes: none;
+}
+#a #b #c blockquote:before,
+#a #b #c blockquote:after,
+#a #b #c q:before,
+#a #b #c q:after {
+  content: '';
+  content: none;
+}
+#a #b #c table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

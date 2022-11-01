@@ -1,0 +1,5 @@
+cd myblog
+一些命令
+npm install
+hexo s
+hexo g

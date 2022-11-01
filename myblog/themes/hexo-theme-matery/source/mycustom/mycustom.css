@@ -1,0 +1,87 @@
+/* zzz */
+
+/* 首页banner中按钮隐藏 */
+.carousel-item.white-text.bg-cover.about-cover>.container
+{
+    display: none;
+}
+
+
+.carousel-item.white-text.bg-cover.about-cover{
+    /* 首页banner图不随滚动条移动 */
+    background-attachment: fixed;
+    transform: none !important;
+}
+
+.nav-transparent .brand-logo{
+    display: none!important;
+}
+
+.bg-color {
+    /* zzz */
+    /* headNav背景颜色 */
+    background-image: linear-gradient(to right, #ffabab 0%, #bbe6ff 100%);
+}
+
+.logo-desc{
+    color:rgba(255,255,255,0)!important
+}
+
+/* 导航字体,图标颜色 */
+.bg-color .right.nav-menu span,
+.bg-color .right.nav-menu i{
+    color: #000;
+}
+.bg-color.nav-transparent .right.nav-menu span,
+.bg-color.nav-transparent .right.nav-menu i{
+    color: rgb(255, 243, 233);
+}
+
+.col.s12.m8.l8.copy-right,
+.col.s12.m4.l4.social-link.social-statis
+{
+    width: 100%!important;
+}
+
+
+.container.row.center-align .col.s12,
+.container.row.center-align .col.s12 >*,
+.container.row.center-align .col.s12 >*>*{
+    color: rgba(0, 0, 0, 0.6)!important;
+}
+
+
+#backTop{
+    display:none!important;
+}
+
+meting-js{
+    margin-left: 0%!important;
+    margin-right: 0%!important;
+
+    width: 100%!important;
+    
+}
+
+.carousel.carousel-slider.center.index-cover{
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+/* 背景颜色footer颜色 */
+body{
+    background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
+}
+
+.content {
+    background: transparent;
+}
+
+
+.page-footer {
+    background: rgba(255,255,255,0);
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}

@@ -1,0 +1,64 @@
+<!-- zzz -->
+<style>
+    .carousel-control {
+        width: 45px;
+        height: 45px;
+        line-height: 55px;
+        border-radius: 45px;
+        background: transparent;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    #prev-cover {
+        position: absolute;
+        top: 48%;
+        left: 8px;
+    }
+
+    #next-cover {
+        position: absolute;
+        top: 48%;
+        right: 8px;;
+    }
+
+    #prev-cover i {
+        margin-right: 3px;
+    }
+
+    #next-cover i {
+        margin-left: 3px;
+    }
+
+    .carousel-control:hover {
+        background-color: rgba(0, 0, 0, .4);
+    }
+
+    .carousel-control i {
+        color: #fff;
+        font-size: 2.4rem;
+    }
+</style>
+
+<%
+// get all cover posts.
+var coverPosts = [];
+site.posts.forEach(function (post) {
+    if (post.cover) {
+        coverPosts.push(post);
+    }
+});
+var coverPostsCount = coverPosts.length;
+%>
+
+<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
+
+    <!-- zzz -->
+    <div id="myheadpre" style="background-position: center center;position: absolute;background-size: cover;background-color: transparent;height:100%;width:100%;
+    background-image: url(<%- theme.bannerimg.index %>)">
+    </div>    
+    <div id="myhead" style="background-position: center center;position: absolute;background-size: cover;background-color: transparent;height:100%;width:100%;
+    background-image: url(<%- theme.bannerimg.indexhigh %>)">
+    </div>
+    
+</div>
