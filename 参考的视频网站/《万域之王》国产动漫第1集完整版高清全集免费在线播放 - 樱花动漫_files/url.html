@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)https://player.doumiz.com/url.php?url=https://www.iqiyi.com/v_1yva5fekcxg.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    
+    <title>智能播放器</title>
+	<script charset="utf-8" src="./jquery.min.js(1).下载"></script>
+<style type="text/css">
+body,html{width:100%;height:100%;background:#000;padding:0;margin:0;overflow-x:hidden;overflow-y:hidden}
+</style></head>
+
+<body oncontextmenu="self.event.returnValue=false" onselectstart="return false" marginwidth="0" marginheight="0" style="overflow-y:hidden;">
+
+<div style="margin:0px auto;width:100%;height:100%;">
+<iframe id="WANG" scrolling="no" allowtransparency="true" allowfullscreen="true" frameborder="0" src="./saved_resource(2).html" width="100%" height="100%"></iframe>
+</div>
+<script>
+    var is_iPhone =navigator.userAgent.toLowerCase().match(/(phone|pad|pod|iPhone|iPod|ios|iPad)/i) != null;  
+    var is_mobile =navigator.userAgent.toLowerCase().match(/(Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i) != null; 
+    function play(url) {
+        $('#WANG').attr('src', decodeURIComponent(decodeURIComponent(url))).show();
+    }   
+    if(is_iPhone){  //苹果手机调用官方DPlayer播放器
+      play('https://jx.yingciyuan.cn/?url=https://www.iqiyi.com/v_1yva5fekcxg.html');	 
+    }else if(is_mobile){  //安卓手机调用CKPlayer-P2P播放器
+      play('https://jx.yingciyuan.cn/?url=https://www.iqiyi.com/v_1yva5fekcxg.html');	  
+    }
+    else
+    { //电脑调用DPlayer-P2P播放器
+      play('https://jx.jsonplayer.com/player/?url=https://www.iqiyi.com/v_1yva5fekcxg.html'); 
+     }
+</script>
+</body></html>
